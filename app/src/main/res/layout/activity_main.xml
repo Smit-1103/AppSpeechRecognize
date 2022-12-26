@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EEEEEE">
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="350sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="50sp"
+        android:background="#DDDDDD"
+        android:textColor="#06113C"
+        android:padding="10sp"
+        android:textSize="20sp"></EditText>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="200sp"
+        android:background="@drawable/button"
+        android:text="Click to listen"
+        android:textAllCaps="false"
+        android:textColor="#06113C"
+        android:textSize="20sp"
+
+        ></Button>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="300sp"
+        android:background="@drawable/button"
+        android:text="Press to Speak"
+        android:textAllCaps="false"
+        android:textColor="#06113C"
+        android:textSize="20sp"
+
+        ></Button>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="350sp"
+        android:layout_height="300sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="400sp"
+        android:layout_marginRight="50sp"
+        android:background="#DDDDDD"
+        android:padding="10sp"
+        android:textColor="#06113C"
+        android:textSize="15sp"></TextView>
+
+</RelativeLayout>
